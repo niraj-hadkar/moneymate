@@ -1,0 +1,93 @@
+# Eclipse specific files
+/.settings/
+/.project
+/.classpath
+/.metadata/
+*.launch
+
+# VS Code specific files
+.vscode/
+
+# Maven specific files
+/target/
+/dependency-reduced-pom.xml
+.mvn/
+.mvn/jvm.config
+.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+
+# Logs
+*.log
+*.out
+*.err
+/logs/
+/*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Java-specific files
+*.class
+*.war
+*.ear
+
+# Package files (general exclusion)
+*.nar
+*.zip
+*.tar.gz
+*.rar
+
+# Spring Boot specific files
+/application.properties
+/application.yml
+.env
+.env.local
+.env.*.local
+!*.env.example  # Allow example environment files
+
+# Allow MySQL Connector if manually added
+!lib/mysql-connector-java-*.jar
+
+# Ignore other JARs unless explicitly allowed
+*.jar
+
+# IntelliJ IDEA files (if used occasionally)
+/.idea/
+/*.iml
+*.ipr
+*.iws
+
+# Node specific (if Angular or React is used)
+/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+*.bak
+
+# Files created by tools or IDEs
+*.~backup
+*.~undo
+*.log~
+*.tmp~
+*.bak~
+
+# Ignore compiled output
+/build/
+
+# JetBrains IDEs (optional)
+/.idea/
+/*.iml
+
+# Private files
+*.env
+.env.local
+.env.*.local
+!*.env.example
